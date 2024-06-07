@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soma's journal</title>
+    <style>
+        h1 {color: rgb(179, 210, 238);
+        }
+        form {background-color: aliceblue;
+        }
+        label {font-weight: bold;
+        }
+        button {background-color: azure;cursor: pointer;
+        }
+        footer{font-style: italic;}
+        
+    </style>
+</head>
+<body>
+   <header>
+    <h1>REGISTRATION FORM</h1>
+   </header> 
+   <main>
+    <form>
+        <label for="full name">Full name</label>
+        <input type="text" placeholder="Soma Whyte" id="full name" name="full name" required> <br> <br>
+        <label for="email">Email Address</label>
+        <input type="email" placeholder="asdfghjkl@gmail.com" id="email" name="email" required> <br> <br>
+        <label for="birth date">Birth date</label>
+        <input type="date" id="birth date" name="birth date" required> <br> <br>
+        <label for="file">Please upload your school results</label>
+        <input type="file" id="file" name="file" required> <br> <br>
+        <label for="nationality">Nationality</label>
+        <select id="nationality" name="nationality" required>
+            <option>Nigeria</option>
+            <option>Japan</option>
+            <option>Brazil</option>
+            <option>Canada</option>
+            <option>France</option>
+            <option>Australia</option>
+            <option>India</option>
+            <option>Italy</option>
+            <option>Mexico</option>
+            <option>Kenya</option>
+        </select> <br> <br>
+        <label for="message">Write a short note telling us why you are the best candidate for this opportunity.</label><br>
+        <textarea name="" id="message" cols="65" rows="5" name="message" required></textarea > <br><br>
+        <input type="checkbox" id="terms and conditions">
+        <label for="terms and conditions">I have read and agreed to the terms and conditions</label> <br> <br>   
+     <button>submit</button>
+    </form>
+   </main>
+</body>
+</html>
